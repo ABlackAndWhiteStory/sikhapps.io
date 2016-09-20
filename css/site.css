@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Norwester';
+  src: url('../fonts/norwester/norwester.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/norwester/norwester.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/norwester/norwester.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/norwester/norwester.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/norwester/norwester.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/norwester/norwester.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body
+{
+    background-color:#DCE0DF;
+    text-align: center;
+    padding-top:100px;
+    font-family: 'Norwester', Fallback, sans-serif;
+}
+
+p {
+    font-size: 30px;
+    color: #231F20;
+}
+
